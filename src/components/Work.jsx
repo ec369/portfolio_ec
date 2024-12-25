@@ -25,11 +25,11 @@ const Work = () => {
               My Latest  <br />
             Work.
             </h2>
-   
+
             {/* <h3 className='h3 mb-4'>I'm a Freelance full stack developer </h3> */}
           <p className='mb-6'>
           <p className='mb-12 text-xl' >
-            I have experience in project development using various technologies and frameworks. Currently, I am focused on my ongoing training at AWS, complemented by application development using React and Express. I integrate a variety of AWS cloud services, such as Amplify, S3, Route 53, Lambda, Cognito, DynamoDB, CloudWatch, IAM, Billing and Cost Management, AWS Health Dashboard and CloudFormation, My adaptability allows me to work with a wide range of tools and technologies, optimizing each project to meet specific needs. Also, my commitment to constant learning ensures that I keep up with the latest trends in web development and cloud technologies, allowing me to deliver innovative, high-quality results.
+          I have experience in project development using a variety of technologies and frameworks. Currently, I specialize in integrating AWS cloud services with application development using React and Express. My adaptability enables me to work efficiently with diverse tools and technologies, tailoring each project to meet specific requirements. Additionally, my commitment to continuous learning ensures that I stay updated with the latest trends in web development and cloud computing, allowing me to deliver innovative and high-quality solutions.
 
 
 </p></p>
