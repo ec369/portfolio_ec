@@ -35,7 +35,7 @@ const About = () => {
            initial='hidden'
            whileInView={'show'}
            viewport={{once: false, amount: 0.3}}
-          className='flex-1  '>
+          className='flex-1  lg:h-[640px]'>
                {/* stats */}
                <h2 className='h2 text-accent'>SKILLS.</h2>
                <div className='grid grid-cols-5  lg:grid-cols-2 gap-x-6 lg:gap-x-10 gap-y-6 mb-12 ssm:grid-cols-3'>

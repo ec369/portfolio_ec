@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div className="bg-site bg-cover bg-center bg-no-repeat bg-fixed">
+    <div className="bg-site bg-cover bg-center bg-no-repeat bg-fixed w-full min-h-screen overflow-x-hidden">
       {/* Header Section */}
       <div className="mb-12">
         <Header />
