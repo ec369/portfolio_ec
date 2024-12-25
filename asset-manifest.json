@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_ec/static/css/main.1098373c.css",
-    "main.js": "/portfolio_ec/static/js/main.6855c369.js",
+    "main.css": "/portfolio_ec/static/css/main.200cf09e.css",
+    "main.js": "/portfolio_ec/static/js/main.f67ba1e3.js",
     "static/media/site-bg3.jpg": "/portfolio_ec/static/media/site-bg3.ab54f21175d00bb53390.jpg",
     "static/media/portfolio-confluencia.png": "/portfolio_ec/static/media/portfolio-confluencia.1520de2ca62e83cea9b2.png",
     "static/media/portfolio-fullstore.png": "/portfolio_ec/static/media/portfolio-fullstore.b1ba6885a35e921bdf8c.png",
@@ -11,11 +11,11 @@
     "static/media/flor_vida.jpg": "/portfolio_ec/static/media/flor_vida.8c65c35f3ad1ef9a9b1a.jpg",
     "static/media/foto_cv.jpeg": "/portfolio_ec/static/media/foto_cv.0aafc5e80a31191f0de0.jpeg",
     "index.html": "/portfolio_ec/index.html",
-    "main.1098373c.css.map": "/portfolio_ec/static/css/main.1098373c.css.map",
-    "main.6855c369.js.map": "/portfolio_ec/static/js/main.6855c369.js.map"
+    "main.200cf09e.css.map": "/portfolio_ec/static/css/main.200cf09e.css.map",
+    "main.f67ba1e3.js.map": "/portfolio_ec/static/js/main.f67ba1e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1098373c.css",
-    "static/js/main.6855c369.js"
+    "static/css/main.200cf09e.css",
+    "static/js/main.f67ba1e3.js"
   ]
 }
