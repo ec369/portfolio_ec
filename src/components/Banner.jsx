@@ -17,6 +17,20 @@ const Banner = () => {
   <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'> 
     <div className='container mx-auto'>
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
+        <motion.div 
+              variants={fadeIn('down', 0.3)} 
+              initial="hidden" 
+              whileInView={'show'} 
+              viewport={{once: false, amount: 0.3}}
+              className="flex lg:hidden flex-1 mb-10 max-w-[200px] mx-auto">
+              <div className="bg-white w-[150px] h-[150px] rounded-full overflow-hidden">
+                <img 
+                  src={Image} 
+                  alt="CV Image" 
+                  className="w-full h-full object-cover object-[1%_100%]" 
+                />
+              </div>
+            </motion.div>
             {/* text */}
             <div className='flex-1 text-center font-secondary lg:text-left'>
               <motion.h1 
