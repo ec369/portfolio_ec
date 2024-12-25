@@ -12,7 +12,7 @@ module.exports = {
       },
     },
     screens: {
-      ssm: '390px',
+      ssm: '360px',
       sm: '640px',
       md: '768px',
       lg: '960px',
@@ -24,9 +24,9 @@ module.exports = {
         accent: '#B809C3',
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
+        site: "url('./assets/site-bg3.jpg')",
         about: "url('./assets/about.png')",
-        services: "url('./assets/services.png')",
+        services: "",
         mandala: "url('./assets/mandala.png')",
         cv: "url('./assets/foto_cv.jpeg')",
        

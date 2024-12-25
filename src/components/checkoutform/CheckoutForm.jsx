@@ -78,7 +78,7 @@ return (
       <div className="form-group">
         <input className="bg-transparent border-b py-3 outline-none w-full
             placeholder:text-white focus:border-accent transition-all text-white" 
-            placeholder="Repite Email" type="email" name="user_repeat_email" />
+            placeholder="Repeat Email" type="email" name="user_repeat_email" />
       </div>
 
       <div className="form-group">

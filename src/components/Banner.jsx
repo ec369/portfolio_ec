@@ -35,10 +35,12 @@ const Banner = () => {
               className='mb-3 text-[36px] lg:text-[45px] font-secondary font-semibold uppercase leading-[1]'>
               <span className='text-white mr-4'> </span>
               <TypeAnimation sequence={[
-              'Full stack Developer',
+              'Cloud Full stack Developer',
                 2000,
               'Designer',
-                2000,              
+                2000,    
+              'Great Team Player',
+                2000,            
               ]}
               speed={50}
               className='text-accent'
@@ -61,55 +63,48 @@ const Banner = () => {
               viewport={{once: false, amount: 0.7 }} 
               className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
                  
-                  <Link to='contact' activeClass='active' smooth={true} spy={true} 
-              className=' btn btn-lg cursor-pointer h-[60px] flex items-center justify-center'>
-                Contact me
+                    <Link to='contact' activeClass='active' smooth={true} spy={true} 
+                          className='text-gradient btn-link cursor-pointer h-[60px] flex items-center justify-center text-xl  '>
+                      CONTACT ME
                       </Link>
+                
+                    <Link to='about' activeClass='active' smooth={true} spy={true} 
+                          className='text-gradient btn-link cursor-pointer h-[60px] flex items-center justify-center text-xl'>
+                      SKILLS
+                    </Link>
+
                     <Link to='work' activeClass='active' smooth={true} spy={true} 
-                          className=' text-gradient btn-link cursor-pointer h-[60px] flex items-center justify-center'>
-                      My Portfolio
+                          className=' text-gradient btn-link cursor-pointer h-[60px] flex items-center justify-center text-xl'>
+                      MY PORTFOLIO
                     </Link>
                        {/* icons */}
-                    <motion.div 
-                variants={fadeIn('up', 0.3)} 
-                initial="hidden" 
-                whileInView={'show'} 
-                viewport={{once: false, amount: 0.7 }} 
-                className='flex text-[60px] gap-x-6 max-w-max mx-auto
-                lg:mx-0'>
-                  {/* <a href='#'>
-                    <FaYoutube />
-                  </a>   */}
-                  <a href='https://github.com/ec369'>
-                    <FaGithub />
                   
-                  </a>  
-                  {/* <a href='#'>
-                    <FaDribbble />
-                  </a>   */}
-                  
-                    </motion.div>   
                 </motion.div>
                             {/* socials */}
                        
             </div>
             {/* image */}
             <motion.div 
-            variants={fadeIn('down', 0.3)} 
-            initial="hidden" 
-            whileInView={'show'} 
-            className='hidden lg:flex flex-1 max-w-[300px] lg:max-w-[369px] '>
-              <div className="bg-white rounded-full overflow-hidden">
+  variants={fadeIn('down', 0.3)} 
+  initial="hidden" 
+  whileInView={'show'} 
+  viewport={{once: false, amount: 0.3}}
+  className="hidden lg:flex flex-1 lg:mb-10  lg:max-w-[369px] ">
+  <div className="bg-white w-[300px] h-[300px] rounded-full overflow-hidden ">
+    <img 
+      src={Image} 
+      alt="CV Image" 
+      className="w-full h-full object-cover object-[1%_100%] " 
+    />
+  </div>
+</motion.div>
 
-              <img src={Image} alt='' />
-              </div>
-            </motion.div>
         </div>
     </div>
   
   </section>  
   );
-  
+
 };
 
 export default Banner;

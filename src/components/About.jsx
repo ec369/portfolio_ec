@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 //variant
 import { fadeIn } from '../variants'; 
-import { FaBlender, FaBootstrap, FaCss3, FaDatabase, FaGit, FaGithub, FaLaravel, FaMicrosoft, FaPhp, FaReact } from 'react-icons/fa';
+import { FaAws, FaBlender, FaBootstrap, FaCss3, FaDatabase, FaDochub, FaDocker, FaGit, FaGithub, FaLaravel, FaMicrosoft, FaPhp, FaReact } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
 
@@ -17,9 +17,9 @@ const About = () => {
   });
   return (
     <section className='section' id='about' ref={ref}>
-      <div className='container mx-auto'>
+      <div className='container mx-auto ssm:mb-36'>
         <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20
-        lg:gap-y-0 h-screen'>
+        lg:gap-y-0'>
           {/* img */}
           <motion.div 
           variants={fadeIn('right', 0.3)}
@@ -35,119 +35,173 @@ const About = () => {
            initial='hidden'
            whileInView={'show'}
            viewport={{once: false, amount: 0.3}}
-          className='flex-1'>
-            <h2 className='h2 text-accent'>About me.</h2>
-            <h3 className='h3 mb-4'>I'm a Freelance full stack developer </h3>
-          <p className='mb-6'>
-          I consider myself a professional full stack developer highly adaptable to new technologies. In addition to my technical skills, I can solve problems and make efficient decisions. I enjoy teamwork, and my passion for continuous learning drives me to stay updated in the field, allowing me to stay abreast of the latest trends and advances in my area.</p>
-             {/* stats */}
-             <div className='grid grid-cols-5  lg:grid-cols-2 gap-x-6 lg:gap-x-10 gap-y-6 mb-12 ssm:grid-cols-3'>
+          className='flex-1  '>
+               {/* stats */}
+               <h2 className='h2 text-accent'>SKILLS.</h2>
+               <div className='grid grid-cols-5  lg:grid-cols-2 gap-x-6 lg:gap-x-10 gap-y-6 mb-12 ssm:grid-cols-3'>
+                
                 <div>
-                    <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                     { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
-                    </div> 
-                        <div className='font-primary text-sm tracking-[2px] '>
-                       Years Experience <br />
-                       React  <FaReact className='text-[30px]'></FaReact>
-                        </div>
-                </div>
-
-                <div>
-                    <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                     { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
-                    </div> 
-                        <div className='font-primary text-sm tracking-[2px] '>
-                        Years Experience <br />
-                       TailwindCSS  <FaReact className='text-[30px]'></FaReact>
-                        </div>
-                </div>
-
-                <div>
-                    <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                     { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
-                    </div>
-                        <div className='font-primary text-sm tracking-[2px]'>
-                        Years Experience <br /> Laravel   <br /> <FaLaravel className='text-[30px]'></FaLaravel>
+                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                        { inView ? <CountUp start={0} end={1} duration={3}/> : null} 
+                       </div>  */}
+                           <div className='font-primary text-sm tracking-[2px] '>
+                           {/* Years Experience <br /> */}
+                            <FaAws className='text-[60px]'></FaAws>Amplify, S3, Route 53, Lambda, Cognito, DynamoDB, CloudWatch, IAM, CloudFormation, Billing and Cost Management, AWS Health Dashboard
+                          
+                           </div>
+                   </div>
+                   <div>
+                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                        { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
+                       </div>  */}
+                           <div className='font-primary text-sm tracking-[2px] '>
+                          {/* Years Experience <br /> */}
+                        <FaReact className='text-[60px]'></FaReact>React -  TailwindCSS    
+                           </div>
+                   </div>
+   
+                   <div>
+                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                        { inView ? <CountUp start={0} end={1} duration={3}/> : null} 
+                       </div>  */}
+                           <div className='font-primary text-sm tracking-[2px] '>
+                          {/* Years Experience <br /> */}
+                           <FaDocker className='text-[60px]'></FaDocker> Docker
+                
+                           </div>
+                   </div>
+   
+                   <div>
+                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                        { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
+                       </div> */}
+                           <div className='font-primary text-sm tracking-[2px]'>
+                           {/* Year Experience <br />     */}
+                           <br /> <FaGit className='text-[60px] '></FaGit>
+                    
+                           </div>
+                   </div>
+                   <div>
+                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                        { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
+                       </div> */}
+                           <div className='font-primary text-sm tracking-[2px]'>
+                           {/* Year Experience <br />     */}
+                           <br /> <a href='https://github.com/ec369'>
+                    <FaGithub className='text-[60px] '/>
                   
-                        </div>
-                </div>
-                <div>
-                    <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                     { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
-                    </div>
-                        <div className='font-primary text-sm tracking-[2px]'>
-                        Years Experience <br />  Phpmyadmin   <br /> <FaDatabase className='text-[30px]'></FaDatabase>
+                  </a> 
+                    
+                           </div>
+                   </div>
+               
+   
                  
-                        </div>
+                   <div>
+                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                        { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
+                       </div> */}
+                           <div className='font-primary text-sm tracking-[2px]'>
+                           {/* Years Experience <br />  */}
+                              <br /> <FaLaravel className='text-[60px]'></FaLaravel>Laravel
+                     
+                           </div>
+                   </div>
+                   <div>
+                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                        { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
+                       </div> */}
+                           <div className='font-primary text-sm tracking-[2px]'>
+                           {/* Years Experience <br />   */}
+                             <br /> <FaDatabase className='text-[60px]'></FaDatabase> Phpmyadmin
+                    
+                           </div>
+                   </div>
+                   <div>
+                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                        { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
+                       </div> */}
+                           <div className='font-primary text-sm tracking-[2px]'>
+                           {/* Years Experience <br />        */}
+                           <br /><FaPhp className='text-[60px] '></FaPhp>
+                    
+                           </div>  
+                   </div>
+                   <div>
+                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                        { inView ? <CountUp start={0} end={1} duration={3}/> : null} 
+                       </div> */}
+                           <div className='font-primary text-sm tracking-[2px]'>
+                           {/* Year Experience <br />  */}
+                               <br /> <FaMicrosoft className='text-[60px]'></FaMicrosoft>  Microsoft Visual Studio
+                    
+                           </div>
+                   </div>
+                   <div>
+                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                        { inView ? <CountUp start={0} end={2} duration={3}/> : null} 
+                       </div> */}
+                           <div className='font-primary text-sm tracking-[2px]'>
+                           {/* Years Experience <br />  */}
+                        <br /> <FaBlender className='text-[60px]'></FaBlender>      Blender
+                    
+                           </div> 
+                   </div>
+                   <div>
+                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                        { inView ? <CountUp start={0} end={1} duration={3}/> : null} 
+                       </div> */}
+                           <div className='font-primary text-sm tracking-[2px]'>
+                           {/* Year Experience <br /> */}
+                          <br /> <FaDatabase className='text-[60px]'></FaDatabase>     MongoDB
+                    
+                           </div>
+                   </div>
+   
+            
+   
+          
                 </div>
-                <div>
-                    <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                     { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
-                    </div>
-                        <div className='font-primary text-sm tracking-[2px]'>
-                        Years Experience <br />       <br /><FaPhp className='text-[60px] -mt-6'></FaPhp>
-                 
-                        </div>  
-                </div>
-                <div>
-                    <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                     { inView ? <CountUp start={0} end={1} duration={3}/> : null} 
-                    </div>
-                        <div className='font-primary text-sm tracking-[2px]'>
-                        Year Experience <br />    Microsoft Visual Studio   <br /> <FaMicrosoft className='text-[30px]'></FaMicrosoft>
-                 
-                        </div>
-                </div>
-                <div>
-                    <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                     { inView ? <CountUp start={0} end={2} duration={3}/> : null} 
-                    </div>
-                        <div className='font-primary text-sm tracking-[2px]'>
-                        Years Experience <br /> Blender   <br /> <FaBlender className='text-[30px]'></FaBlender>
-                 
-                        </div> 
-                </div>
-                <div>
-                    <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                     { inView ? <CountUp start={0} end={1} duration={3}/> : null} 
-                    </div>
-                        <div className='font-primary text-sm tracking-[2px]'>
-                        Year Experience <br /> MongoDB   <br /> <FaDatabase className='text-[30px]'></FaDatabase>
-                 
-                        </div>
-                </div>
+            <h2 className='h2 text-accent'>About me.</h2>
+            {/* <h3 className='h3 mb-4'>I'm a Freelance full stack developer </h3> */}
+          <p className='mb-6'>
+          <p className='mb-12 text-xl' >
+            I have experience in project development using various technologies and frameworks. Currently, I am focused on my ongoing training at AWS, complemented by application development using React and Express. I integrate a variety of AWS cloud services, such as Amplify, S3, Route 53, Lambda, Cognito, DynamoDB, CloudWatch, IAM, Billing and Cost Management, AWS Health Dashboard and CloudFormation, My adaptability allows me to work with a wide range of tools and technologies, optimizing each project to meet specific needs. Also, my commitment to constant learning ensures that I keep up with the latest trends in web development and cloud technologies, allowing me to deliver innovative, high-quality results.
 
-                <div>
-                    <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                     { inView ? <CountUp start={0} end={1} duration={3}/> : null} 
-                    </div>
-                        <div className='font-primary text-sm tracking-[2px]'>
-                        Year Experience <br />    <br /> <FaGit className='text-[30px] -mt-6'></FaGit>
-                 
-                        </div>
-                </div>
 
-                <div>
-                    <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                     { inView ? <CountUp start={0} end={1} duration={3}/> : null} 
-                    </div>
-                        <div className='font-primary text-sm tracking-[2px]'>
-                        Year Experience <br />    <br /> <FaGithub className='text-[30px] -mt-6'></FaGithub>
-                 
-                        </div>
-                </div>
-             </div>
+</p></p>
+          
               <div className='flex gap-x-8 items-center'>
               <Link to='contact' activeClass='active' smooth={true} spy={true} 
               className=' btn btn-lg cursor-pointer h-[60px] flex items-center justify-center'>
-                Contact me
+                CONTACT ME
                       </Link>
-                      <Link to='contact' activeClass='active' smooth={true} spy={true} 
+                      <Link to='work' activeClass='active' smooth={true} spy={true} 
                           className=' text-gradient btn-link cursor-pointer h-[60px] flex items-center justify-center'>
-                      My Portfolio
+                     MY PORTFOLIO
                     </Link>
+                    <motion.div 
+                variants={fadeIn('up', 0.3)} 
+                initial="hidden" 
+                whileInView={'show'} 
+                viewport={{once: false, amount: 0.7 }} 
+                className='flex text-[60px] gap-x-6 max-w-max mx-auto
+                lg:mx-0'>
+                  {/* <a href='#'>
+                    <FaYoutube />
+                  </a>   */}
+                  <a href='https://github.com/ec369'>
+                    <FaGithub />
+                  
+                  </a>  
+                  {/* <a href='#'>
+                    <FaDribbble />
+                  </a>   */}
+                  
+                    </motion.div>   
               </div>
           </motion.div>
+          
         </div>
       </div>
     </section>

@@ -10,15 +10,44 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
-      <Header />
-      <Banner />
-      <Nav />
-      <About />
-      {/* <Services /> */}
-      <Work />
-      <Contact />
-      <div className='h-[4000px]'></div> 
+    <div className="bg-site bg-cover bg-center bg-no-repeat bg-fixed">
+      {/* Header Section */}
+      <div className="mb-12">
+        <Header />
+      </div>
+
+      {/* Banner Section */}
+      <div className="mb-96">
+        <Banner />
+      </div>
+
+      {/* Navigation Section */}
+      <div className="mb-12">
+        <Nav />
+      </div>
+
+      {/* About Section */}
+      <div className="mb-12">
+        <About />
+      </div>
+
+      {/* Services Section */}
+      {/* <div className="mb-12">
+        <Services />
+      </div> */}
+
+      {/* Work Section */}
+      <div className="mb-12">
+        <Work />
+      </div>
+
+      {/* Contact Section */}
+      <div className="mb-12">
+        <Contact />
+      </div>
+
+      {/* Spacer for Testing */}
+      <div className="h-[4000px]"></div>
     </div>
   );
 };
