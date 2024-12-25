@@ -17,7 +17,7 @@ const App = () => {
       </div>
 
       {/* Banner Section */}
-      <div className="mb-96">
+      <div className="mb-12">
         <Banner />
       </div>
 
