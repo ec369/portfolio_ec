@@ -81,19 +81,7 @@ const About = () => {
                     
                            </div>
                    </div>
-                   <div>
-                       {/* <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                        { inView ? <CountUp start={0} end={3} duration={3}/> : null} 
-                       </div> */}
-                           <div className='font-primary text-sm tracking-[2px]'>
-                           {/* Year Experience <br />     */}
-                           <br /> <a href='https://github.com/ec369'>
-                    <FaGithub className='text-[60px] '/>
-                  
-                  </a> 
-                    
-                           </div>
-                   </div>
+             
                
    
                  
@@ -162,14 +150,7 @@ const About = () => {
    
           
                 </div>
-            <h2 className='h2 text-accent'>About me.</h2>
-            {/* <h3 className='h3 mb-4'>I'm a Freelance full stack developer </h3> */}
-          <p className='mb-6'>
-          <p className='mb-12 text-xl' >
-            I have experience in project development using various technologies and frameworks. Currently, I am focused on my ongoing training at AWS, complemented by application development using React and Express. I integrate a variety of AWS cloud services, such as Amplify, S3, Route 53, Lambda, Cognito, DynamoDB, CloudWatch, IAM, Billing and Cost Management, AWS Health Dashboard and CloudFormation, My adaptability allows me to work with a wide range of tools and technologies, optimizing each project to meet specific needs. Also, my commitment to constant learning ensures that I keep up with the latest trends in web development and cloud technologies, allowing me to deliver innovative, high-quality results.
-
-
-</p></p>
+       
           
               <div className='flex gap-x-8 items-center'>
               <Link to='contact' activeClass='active' smooth={true} spy={true} 
