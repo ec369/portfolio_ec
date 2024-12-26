@@ -151,11 +151,11 @@ const About = () => {
                 </div>
        
           
-              <div className='flex gap-x-8 items-center'>
-              <Link to='contact' activeClass='active' smooth={true} spy={true} 
-              className=' btn btn-lg cursor-pointer h-[60px] flex items-center justify-center'>
-                CONTACT ME
-                      </Link>
+              <div className='flex gap-x-8 items-center ssm:ml-[-18px]'>
+          <Link to='contact' activeClass='active' smooth={true} spy={true} 
+                                  className='text-gradient btn-link cursor-pointer h-[60px] flex items-center justify-center text-xl  '>
+                              CONTACT ME
+                              </Link>
                       <Link to='work' activeClass='active' smooth={true} spy={true} 
                           className=' text-gradient btn-link cursor-pointer h-[60px] flex items-center justify-center'>
                      MY PORTFOLIO
@@ -170,7 +170,7 @@ const About = () => {
                   {/* <a href='#'>
                     <FaYoutube />
                   </a>   */}
-                  <a href='https://github.com/ec369'>
+             <a href='https://github.com/ec369' >
                     <FaGithub />
                   
                   </a>  
