@@ -15,8 +15,8 @@ import { Link } from 'react-scroll';
 const Banner = () => {
   return (  
   <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center ' id='home'> 
-    <div className='container mx-auto ssm:mb-24'>
-        <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
+    <div className='container mx-auto ssm:mb-36'>
+        <div className='flex flex-col  gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
         <motion.div 
               variants={fadeIn('down', 0.3)} 
               initial="hidden" 

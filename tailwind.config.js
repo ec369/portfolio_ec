@@ -12,11 +12,13 @@ module.exports = {
       },
     },
     screens: {
-      ssm: '360px',
-      sm: '640px',
-      md: '768px',
-      lg: '960px',
-      xl: '1200px',
+      ssm: {'min': '360px', 'max': '639px'},
+      sm: {'min': '640px', 'max': '767px'},
+      md: {'min': '768px', 'max': '959px'},
+      lg: {'min': '960px', 'max': '1199px'},
+      xl: {'min': '1200px'},
+ 
+
     },
     extend: {
       colors: {
