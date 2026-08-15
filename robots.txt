@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ec369.github.io/portfolio_ec/sitemap.xml

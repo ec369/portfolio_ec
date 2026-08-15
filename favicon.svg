@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="EC7">
+  <rect width="64" height="64" rx="8" fill="#04090f"/>
+  <path d="M32 5 55.4 18.5v27L32 59 8.6 45.5v-27Z" fill="none" stroke="#55e6e9" stroke-width="2"/>
+  <path d="M32 13 48.5 22.5v19L32 51l-16.5-9.5v-19Z" fill="none" stroke="#9377ff" stroke-width="1" opacity=".7"/>
+  <text x="32" y="38" fill="#f4f8fb" font-family="system-ui, sans-serif" font-size="20" font-weight="800" text-anchor="middle">EC7</text>
+</svg>

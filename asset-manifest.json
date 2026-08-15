@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio_ec/static/css/main.bbc3d5ba.css",
+    "main.js": "/portfolio_ec/static/js/main.d7efe292.js",
+    "static/media/portfolio-fullstore.webp": "/portfolio_ec/static/media/portfolio-fullstore.b5fd6e3c80bd68891c06.webp",
+    "static/media/portfolio-magos369.webp": "/portfolio_ec/static/media/portfolio-magos369.8dcb214ee8157be43738.webp",
+    "static/media/portfolio-magos3d.webp": "/portfolio_ec/static/media/portfolio-magos3d.c03b0687eda7fc0b8172.webp",
+    "static/media/foto_cv.webp": "/portfolio_ec/static/media/foto_cv.89dc46229fed77d577ad.webp",
+    "index.html": "/portfolio_ec/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.bbc3d5ba.css",
+    "static/js/main.d7efe292.js"
+  ]
+}

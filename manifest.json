@@ -1,0 +1,18 @@
+{
+  "short_name": "EC7 Portfolio",
+  "name": "Erick — Software, Cloud y Ciberseguridad",
+  "description": "Portfolio profesional de software, AWS, DevSecOps y Cloud Security.",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/portfolio_ec/",
+  "scope": "/portfolio_ec/",
+  "display": "standalone",
+  "theme_color": "#04090f",
+  "background_color": "#04090f"
+}
